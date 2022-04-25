@@ -11,6 +11,7 @@ import paqueteuno.Pelicula;
 public class EjecutorUno {
     public static void main(String[] args) {
         Pelicula p = new Pelicula();
+        
         int valor = 11;
         p.establecerVersion(valor);
         System.out.println(p.obtenerVersion());
